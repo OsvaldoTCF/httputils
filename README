@@ -1,0 +1,32 @@
+HTTPUtils plugin
+================
+
+Either in web or desktop applications, the HTTP protocol is the central standard for data transporting.
+By means of HTTPUtils, you can easily send and receive data in a safe and friendly way.
+
+Installation
+============
+
+1. Open the package "httputilspkg.lpk", in the dialog that opens, click in "Use >>" and "Add to Project";
+
+Steps to run your project with SSL support (to test with HTTPs protocol):
+=========================================================================
+
+On Windows, copy the DLLs libeay32.dll/ssleay32.dll to your project folder.
+
+On Linux, install the OpenSSL(*) libs.
+
+(*)
+  OpenSSL on openSUSE:
+    # zypper in libopenssl-devel 
+
+  OpenSSL on Mint:
+    $ sudo apt-get install libssl-dev
+
+  OpenSSL on Fedora:
+    $ su
+    # cd /usr/lib
+    # ln -s libcrypto.so.1.0.0 libcrypto.so
+    # ln -s libssl.so.1.0.0 libssl.so
+
+Enjoy!
