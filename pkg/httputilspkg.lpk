@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <Package Version="4">
     <PathDelim Value="\"/>
@@ -20,7 +20,7 @@
     </CompilerOptions>
     <Description Value="Either in web or desktop applications, the HTTP protocol is the central standard for data transporting. By means of HTTPUtils, you can easily send and receive data in a safe and friendly way."/>
     <License Value="Please see the LICENSE file."/>
-    <Version Release="1" Build="5"/>
+    <Version Major="1"/>
     <Files Count="1">
       <Item1>
         <Filename Value="..\src\httputils.pas"/>

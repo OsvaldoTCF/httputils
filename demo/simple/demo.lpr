@@ -6,7 +6,7 @@ uses
   HttpUtils;
 
 begin
-  Write(HttpGetText('http://silvioprog.com.br/'));
-  Download('http://mail.google.com/mail/help/images/screenshots/chat/grin.gif')
+  Write(HttpGetText('http://silvioprog.github.io/brookframework/'));
+  Download('http://silvioprog.github.io/brookframework/favicon.ico');
 end.
 
